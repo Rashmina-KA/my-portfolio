@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="K.A. Adini Rashmina — Data Engineering, Data Analytics, Cloud Computing, Networking and Systems portfolio.">
+  <title>K.A. Adini Rashmina — Data • Cloud • Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+  <div class="progress" id="progress"></div>
+
+  <header class="header">
+    <a class="logo" href="#home">K.A. ADINI RASHMINA<span>✦</span></a>
+    <button class="menu" id="menu" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero page" id="home">
+      <div class="hero-left">
+        <div class="mini-label reveal"><span></span> OPEN TO INTERNSHIP OPPORTUNITIES</div>
+        <h1 class="reveal delay-1">Data.<br><em>Cloud.</em><br>Systems.</h1>
+        <p class="hero-role reveal delay-2">BICT Undergraduate <b>·</b> Aspiring Cloud Engineer</p>
+        <p class="hero-copy reveal delay-2">
+          I build practical projects across <strong>data engineering, data analytics, cloud computing,
+          networking and systems administration</strong> — learning by turning ideas into working solutions.
+        </p>
+        <div class="hero-actions reveal delay-3">
+          <a class="button primary" href="#work">Explore my work <span>↗</span></a>
+          <a class="button ghost" href="assets/Adini_Rashmina_CV.pdf" download>Download CV <span>↓</span></a>
+        </div>
+        <div class="quick-links reveal delay-3">
+          <a href="https://github.com/Rashmina-KA" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="mailto:adinirashmina@gmail.com">Email ↗</a>
+          <a href="https://www.linkedin.com/in/adini-rashmina-3852843b4" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <span>Based in Sri Lanka</span>
+        </div>
+      </div>
+
+      <div class="hero-right reveal delay-2">
+        <div class="ambient ambient-one"></div>
+        <div class="ambient ambient-two"></div>
+        <div class="portrait-card">
+          <div class="portrait-top">
+            <span>01 / PROFILE</span>
+            <span>2026</span>
+          </div>
+          <div class="portrait">
+            <img src="assets/profile.png" alt="K.A. Adini Rashmina">
+          </div>
+          <div class="portrait-bottom">
+            <div><small>FOCUS</small><strong>DATA + CLOUD</strong></div>
+            <div><small>STATUS</small><strong class="status"><i></i> LEARNING</strong></div>
+          </div>
+        </div>
+        <div class="floating-note note-one">📊 <b>Data Analytics</b><small>Python · SQL · Power BI</small></div>
+        <div class="floating-note note-two">☁️ <b>Cloud Computing</b><small>AWS · Linux · Docker</small></div>
+        <div class="floating-note note-three">🖥️ <b>Systems</b><small>Networking · Security</small></div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>SCROLL TO EXPLORE</span>
+        <div class="line"></div>
+        <span>01 — 06</span>
+      </div>
+    </section>
+
+    <section class="page about" id="about">
+      <div class="section-kicker reveal">01 — ABOUT</div>
+      <div class="about-layout">
+        <div class="section-title reveal">
+          <h2>Curious by nature.<br><em>Hands-on by choice.</em></h2>
+        </div>
+        <div class="about-text reveal delay-1">
+          <p>
+            I am a third-year <strong>Bachelor of Information & Communication Technology (Hons.)</strong>
+            undergraduate at the Faculty of Technology, University of Colombo.
+          </p>
+          <p>
+            My strongest interests sit where <strong>data, infrastructure and technology meet</strong>.
+            I enjoy building data pipelines, exploring datasets, creating dashboards, working with AWS,
+            Linux and Docker, and learning how networks and systems operate.
+          </p>
+          <p>
+            I am looking for an internship where I can keep learning, solve real problems and contribute
+            to a technical team.
+          </p>
+          <a class="text-link" href="#contact">Let's connect <span>↗</span></a>
+        </div>
+      </div>
+      <div class="interest-row reveal">
+        <article><span>01</span><b>Data Engineering</b><p>Build → process → store → visualize</p></article>
+        <article><span>02</span><b>Data Analytics</b><p>Explore → analyze → communicate insights</p></article>
+        <article><span>03</span><b>Cloud Computing</b><p>Deploy → secure → monitor infrastructure</p></article>
+        <article><span>04</span><b>Systems & Networking</b><p>Linux → networks → troubleshooting</p></article>
+      </div>
+    </section>
+
+    <section class="page skills" id="skills">
+      <div class="section-kicker reveal">02 — CAPABILITIES</div>
+      <div class="skills-head">
+        <div class="section-title reveal"><h2>Tools I use<br><em>& concepts I build with.</em></h2></div>
+        <p class="reveal delay-1">Select a focus area. The panel changes interactively.</p>
+      </div>
+
+      <div class="skill-switcher reveal">
+        <button class="skill-button active" data-skill="data">DATA</button>
+        <button class="skill-button" data-skill="cloud">CLOUD</button>
+        <button class="skill-button" data-skill="systems">SYSTEMS</button>
+        <button class="skill-button" data-skill="tools">TOOLS</button>
+      </div>
+      <div class="skill-stage reveal">
+        <div id="skillContent"></div>
+      </div>
+    </section>
+
+    <section class="page work" id="work">
+      <div class="section-kicker reveal">03 — SELECTED WORK</div>
+      <div class="work-head">
+        <div class="section-title reveal"><h2>Projects that<br><em>show the work.</em></h2></div>
+        <div class="work-side reveal delay-1">
+          <p>Every project below opens its GitHub repository directly. Explore the code, README and implementation.</p>
+          <a class="text-link" href="https://github.com/Rashmina-KA" target="_blank" rel="noopener">View all GitHub work ↗</a>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project project-large reveal" data-type="data">
+          <div class="project-top"><span>01 / DATA ENGINEERING</span><span>2026</span></div>
+          <div class="project-art weather-art">
+            <div class="data-flow"><span>API</span><i>→</i><span>KAFKA</span><i>→</i><span>POSTGRES</span><i>→</i><span>GRAFANA</span></div>
+            <div class="pulse"></div>
+          </div>
+          <div class="project-info">
+            <div><h3>Near-Real-Time<br>Weather Data Pipeline</h3><p>Open-Meteo → Python → Kafka → PostgreSQL → Grafana, containerized with Docker Compose.</p></div>
+            <a class="project-link" href="https://github.com/Rashmina-KA/weather-data-pipeline" target="_blank" rel="noopener" aria-label="Open Weather Data Pipeline GitHub repository">↗</a>
+          </div>
+          <div class="tech"><span>Python</span><span>Kafka</span><span>PostgreSQL</span><span>Grafana</span><span>Docker</span></div>
+        </article>
+
+        <article class="project reveal" data-type="data">
+          <div class="project-top"><span>02 / DATA ANALYTICS</span><span>2026</span></div>
+          <div class="project-art analytics-art">
+            <div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="chart-line"></div>
+          </div>
+          <div class="project-info">
+            <div><h3>E-Commerce<br>Sales Analytics</h3><p>9,994 order-line records analyzed with Python, SQL and a 3-page Power BI dashboard.</p></div>
+            <a class="project-link" href="https://github.com/Rashmina-KA/ecommerce-sales-analytics" target="_blank" rel="noopener" aria-label="Open E-Commerce Sales Analytics GitHub repository">↗</a>
+          </div>
+          <div class="tech"><span>Python</span><span>SQL</span><span>Power BI</span><span>DAX</span></div>
+        </article>
+
+        <article class="project reveal" data-type="cloud">
+          <div class="project-top"><span>03 / CLOUD</span><span>2026</span></div>
+          <div class="project-art cloud-art"><div class="cloud-shape">☁</div><div class="cloud-nodes"><span>S3</span><span>EC2</span><span>λ</span><span>DB</span></div></div>
+          <div class="project-info">
+            <div><h3>DecodeLabs<br>Cloud Projects</h3><p>AWS S3, EC2, DynamoDB, Lambda and CloudWatch through a practical cloud internship.</p></div>
+            <a class="project-link" href="https://github.com/Rashmina-KA/DecodeLabs-Internship" target="_blank" rel="noopener" aria-label="Open DecodeLabs Internship GitHub repository">↗</a>
+          </div>
+          <div class="tech"><span>AWS</span><span>Linux</span><span>EC2</span><span>Lambda</span></div>
+        </article>
+
+        <article class="project reveal" data-type="testing">
+          <div class="project-top"><span>04 / API TESTING</span><span>2026</span></div>
+          <div class="project-art api-art"><div class="terminal"><span>GET</span> /users <b>200</b><br><span>POST</span> /posts <b>201</b><br><span>PUT</span> /posts/1 <b>200</b><br><span>DELETE</span> /posts/1 <b>200</b></div></div>
+          <div class="project-info">
+            <div><h3>REST API<br>Testing</h3><p>Postman suite with assertions, environments, Collection Runner and negative testing.</p></div>
+            <a class="project-link" href="https://github.com/Rashmina-KA/jsonplaceholder-api-testing-postman" target="_blank" rel="noopener" aria-label="Open REST API Testing GitHub repository">↗</a>
+          </div>
+          <div class="tech"><span>Postman</span><span>REST</span><span>JSON</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="page experience" id="experience">
+      <div class="section-kicker reveal">04 — EXPERIENCE</div>
+      <div class="experience-layout">
+        <div class="section-title reveal"><h2>Learning through<br><em>real practice.</em></h2></div>
+        <div class="experience-card reveal delay-1">
+          <div class="exp-number">01</div>
+          <div class="exp-date">JUL — AUG 2026</div>
+          <h3>Cloud Computing (AWS/Azure) Intern</h3>
+          <h4>DecodeLabs · Remote</h4>
+          <p>Completed four applied AWS projects spanning storage, compute, databases and serverless computing. Worked with S3, EC2 Ubuntu, SSH, Apache, DynamoDB, Lambda, CloudWatch and security groups.</p>
+          <a href="https://github.com/Rashmina-KA/DecodeLabs-Internship" target="_blank" rel="noopener" class="text-link">View internship work ↗</a>
+        </div>
+      </div>
+      <div class="education-bar reveal">
+        <div>
+          <small>UNDERGRADUATE</small>
+          <b>B.ICT (Hons.) — University of Colombo</b>
+          <span>3rd Year · 2023 — Present</span>
+        </div>
+        <div>
+          <small>G.C.E. ADVANCED LEVEL · 2023</small>
+          <b>A · A · A</b>
+          <span>ICT · Science for Technology · Bio Systems Technology</span>
+          <strong>District Rank 15 · Island Rank 89</strong>
+        </div>
+        <div>
+          <small>G.C.E. ORDINARY LEVEL · 2019</small>
+          <b>4 A · 3 B · 2 C</b>
+          <span>Sri Palee College, Horana</span>
+        </div>
+      </div>
+
+      <div class="aat-card reveal">
+        <div class="aat-icon">AAT</div>
+        <div>
+          <small>PROFESSIONAL QUALIFICATION</small>
+          <h3>Association of Accounting Technicians of Sri Lanka</h3>
+          <p><strong>Level 1 — Passed (2021)</strong> &nbsp;·&nbsp; <strong>Level 2 — In Progress</strong></p>
+          <span>Additional foundation in accounting and business concepts.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="page contact" id="contact">
+      <div class="contact-panel reveal">
+        <div class="section-kicker">05 — CONTACT</div>
+        <h2>Have an opportunity?<br><em>Let's talk.</em></h2>
+        <p>I'm interested in internship opportunities and practical technical work across data, cloud and systems.</p>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:adinirashmina@gmail.com">Send me an email ↗</a>
+          <a class="button ghost" href="https://github.com/Rashmina-KA" target="_blank" rel="noopener">GitHub profile ↗</a>
+          <a class="button ghost" href="https://www.linkedin.com/in/adini-rashmina-3852843b4" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="button ghost" href="assets/Adini_Rashmina_CV.pdf" download>Download CV ↓</a>
+        </div>
+      </div>
+      <div class="contact-footer reveal">
+        <div><b>K.A. Adini Rashmina</b><span>BICT Undergraduate · Data · Cloud · Systems</span></div>
+        <div><a href="mailto:adinirashmina@gmail.com">adinirashmina@gmail.com</a><a href="https://www.linkedin.com/in/adini-rashmina-3852843b4" target="_blank" rel="noopener">linkedin.com/in/adini-rashmina-3852843b4</a><a href="https://github.com/Rashmina-KA" target="_blank" rel="noopener">github.com/Rashmina-KA</a></div>
+        <div><span>© <span id="year"></span> K.A. Adini Rashmina</span><a href="#home">Back to top ↑</a></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
